@@ -1,7 +1,8 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import { IStackScreen } from '~/@types/NavigationApplication.types'
+import translate from '~/lib/i18n/i18n'
+import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import HomeScreen from '~/screens/Home/HomeScreen'
 
 const HOME_SCREENS: IStackScreen[] = [
@@ -16,7 +17,7 @@ const Stack = createNativeStackNavigator()
 const HomeScreenStack = () => (
   <Stack.Navigator
     screenOptions={{
-      title: 'Dave.',
+      title: translate('header_title.home'),
       headerStyle: {
         backgroundColor: 'grey',
       },

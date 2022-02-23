@@ -1,7 +1,8 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import { IStackScreen } from '~/@types/NavigationApplication.types'
+import translate from '~/lib/i18n/i18n'
+import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import CollectibleScreen from '~/screens/Collectible/CollectibleScreen'
 
 const COLLECTIBLE_SCREENS: IStackScreen[] = [
@@ -16,7 +17,7 @@ const Stack = createNativeStackNavigator()
 const CollectibleScreenStack = () => (
   <Stack.Navigator
     screenOptions={{
-      title: 'New collectible',
+      title: translate('header_title.collectible'),
       headerStyle: {
         backgroundColor: 'grey',
       },

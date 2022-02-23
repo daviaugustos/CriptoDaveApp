@@ -1,7 +1,8 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import { IStackScreen } from '~/@types/NavigationApplication.types'
+import translate from '~/lib/i18n/i18n'
+import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import DiscoverScreen from '~/screens/Discover/DiscoverScreen'
 
 const DISCOVER_SCREENS: IStackScreen[] = [
@@ -16,7 +17,7 @@ const Stack = createNativeStackNavigator()
 const DiscoverScreenStack = () => (
   <Stack.Navigator
     screenOptions={{
-      title: 'Discover',
+      title: translate('header_title.discover'),
       headerStyle: {
         backgroundColor: 'grey',
       },

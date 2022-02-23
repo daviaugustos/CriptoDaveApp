@@ -1,7 +1,8 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import { IStackScreen } from '~/@types/NavigationApplication.types'
+import translate from '~/lib/i18n/i18n'
+import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import NotificationsScreen from '~/screens/Notifications/NotificationsScreen'
 
 const NOTIFICATIONS_SCREENS: IStackScreen[] = [
@@ -16,7 +17,7 @@ const Stack = createNativeStackNavigator()
 const NotificationsScreenStack = () => (
   <Stack.Navigator
     screenOptions={{
-      title: 'Notifications',
+      title: translate('header_title.notifications'),
       headerStyle: {
         backgroundColor: 'grey',
       },
