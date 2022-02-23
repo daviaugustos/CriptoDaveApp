@@ -1,5 +1,5 @@
 import React from 'react'
-import { createStackNavigator } from '@react-navigation/stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { IStackScreen } from '~/@types/NavigationApplication.types'
 import HomeScreen from '~/screens/Home/HomeScreen'
@@ -11,12 +11,19 @@ const HOME_SCREENS: IStackScreen[] = [
   },
 ]
 
-const Stack = createStackNavigator()
+const Stack = createNativeStackNavigator()
 
 const HomeScreenStack = () => (
-  <Stack.Navigator>
-    {HOME_SCREENS.map(({ name, component }) => (
-      <Stack.Screen name={name} component={component} />
+  <Stack.Navigator
+    screenOptions={{
+      title: 'Dave.',
+      headerStyle: {
+        backgroundColor: 'grey',
+      },
+    }}
+  >
+    {HOME_SCREENS.map(({ name, component }, index) => (
+      <Stack.Screen key={index} name={name} component={component} />
     ))}
   </Stack.Navigator>
 )

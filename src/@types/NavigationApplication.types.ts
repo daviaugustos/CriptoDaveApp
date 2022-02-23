@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StackNavigationOptions } from '@react-navigation/stack'
+import { NativeStackNavigationOptions } from '@react-navigation/native-stack'
 
 export type THomeStackScreens = {
   Home: undefined
@@ -36,5 +36,5 @@ export type TStackScreens = THomeStackScreens &
 export interface IStackScreen {
   name: keyof TStackScreens
   component: React.ComponentType<any>
-  options?: StackNavigationOptions
+  options?: NativeStackNavigationOptions
 }

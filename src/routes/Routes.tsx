@@ -35,7 +35,12 @@ const Tabs: IStackScreen[] = [
 
 const Routes: React.FC = () => {
   return (
-    <Tab.Navigator initialRouteName="HomeTab">
+    <Tab.Navigator
+      initialRouteName="HomeTab"
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
       {Tabs.map((tabItem, index) => (
         <Tab.Screen key={index} {...tabItem} />
       ))}
