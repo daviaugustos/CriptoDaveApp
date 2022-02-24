@@ -6,7 +6,7 @@ on:
       - develop
 
 env:
-  PROPERTIES_PATH: "./android/key.properties"
+  PROPERTIES_PATH: './android/key.properties'
 
 jobs:
   Build-Android-Dev-Artifact:
@@ -39,7 +39,7 @@ jobs:
       - name: Make gradlew executable
         run: |
           cd android && chmod +x ./gradlew
-        
+
       - name: Build development variant
         run: |
           cd android && ./gradlew app:assembleDevelopment --no-daemon
@@ -49,7 +49,7 @@ jobs:
         with:
           appName: davi.santos/Cripto-Dave-App
           token: ${{secrets.APPCENTER_TOKEN_ANDROID}}
-          group: Collaborators
+          group: Public
           file: android/app/build/outputs/apk/development/app-development.apk
           notifyTesters: true
           debug: false
