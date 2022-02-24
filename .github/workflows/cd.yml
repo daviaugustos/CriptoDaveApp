@@ -38,8 +38,8 @@ jobs:
 
       - name: Make gradlew executable
         run: |
-          chmod +x ./gradlew
+          chmod +x ./android/gradlew
         
       - name: Build prod
         run: |
-          ./gradlew app:bundleRelease
+          ./android/gradlew app:bundleRelease
