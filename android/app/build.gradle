@@ -159,6 +159,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        development {
+            storeFile = file('key.jks')
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storePassword keystoreProperties['storePassword']
+        }
         release {
             storeFile = file('key.jks')
             keyAlias keystoreProperties['keyAlias']
@@ -174,6 +180,12 @@ android {
                     abiFilters nativeArchitectures.split(',')
                 }
             }
+        }
+        development {
+            signingConfig signingConfigs.development
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            matchingFallbacks = ['release']
         }
         release {
             signingConfig signingConfigs.release
