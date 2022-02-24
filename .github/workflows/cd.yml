@@ -50,6 +50,6 @@ jobs:
           appName: davi.santos/Cripto-Dave-App
           token: ${{secrets.APPCENTER_TOKEN_ANDROID}}
           group: Collaborators
-          file: app/build/outputs/apk/development/app-development.apk
+          file: android/app/build/outputs/apk/development/app-development.apk
           notifyTesters: true
           debug: false
