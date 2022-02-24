@@ -1,4 +1,4 @@
-name: Continuous Development
+name: Continuous Deployment
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
   Build-Android-Dev-Artifact:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout branch
         uses: actions/checkout@v2
       - uses: actions/setup-node@master
       - uses: c-hive/gha-yarn-cache@v1
@@ -40,6 +40,16 @@ jobs:
         run: |
           cd android && chmod +x ./gradlew
         
-      - name: Build prod
+      - name: Build development variant
         run: |
-          cd android && ./gradlew app:bundleRelease --no-daemon
+          cd android && ./gradlew app:assembleDevelopment --no-daemon
+
+      - name: Upload artifact to App Center
+        uses: wzieba/AppCenter-Github-Action@v1
+        with:
+          appName: davi.santos/Cripto-Dave-App
+          token: ${{secrets.APPCENTER_TOKEN_ANDROID}}
+          group: Collaborators
+          file: app/build/outputs/apk/development/app-development.apk
+          notifyTesters: true
+          debug: false
