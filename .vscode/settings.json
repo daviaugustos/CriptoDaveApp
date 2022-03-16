@@ -1,6 +1,9 @@
 {
   "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "file:///Users/davisantos/Documents/CriptoDaveApp/.github/workflows/ci.yml"
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/davisantos/Documents/HomeFinderApp/.github/workflows/ci.yml"
   },
-  "cSpell.words": ["gradlew"]
+  "cSpell.words": [
+    "gradlew"
+  ],
+  "java.configuration.updateBuildConfiguration": "interactive"
 }

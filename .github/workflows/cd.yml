@@ -47,7 +47,7 @@ jobs:
       - name: Upload artifact to App Center
         uses: wzieba/AppCenter-Github-Action@v1
         with:
-          appName: davi.santos/Cripto-Dave-App
+          appName: davi.santos/Home-Finder-App
           token: ${{secrets.APPCENTER_TOKEN_ANDROID}}
           group: Public
           file: android/app/build/outputs/apk/development/app-development.apk
