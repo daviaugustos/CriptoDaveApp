@@ -12,9 +12,9 @@ export type TDiscoverStackScreens = {
   CategoryDetail: undefined
 }
 
-export type TCollectibleStackScreens = {
-  CreateCollectible: undefined
-  FinishCollectible: undefined
+export type TFavoritesStackScreens = {
+  CreateFavorites: undefined
+  FinishFavorites: undefined
 }
 
 export type TNotificationsStackScreens = {
@@ -29,7 +29,7 @@ export type TProfileStackScreens = {
 
 export type TStackScreens = THomeStackScreens &
   TDiscoverStackScreens &
-  TCollectibleStackScreens &
+  TFavoritesStackScreens &
   TNotificationsStackScreens &
   TProfileStackScreens
 

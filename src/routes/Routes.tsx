@@ -3,9 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
 import { IStackScreen, TRouteTab } from '~/routes/Routes.types'
 import HomeScreenStack from '~/routes/HomeStack/HomeStack'
-import DiscoverScreenStack from '~/routes/DiscoverStack/DiscoverStack'
-import CollectibleScreenStack from '~/routes/CollectibleStack/CollectibleStack'
-import NotificationsScreenStack from '~/routes/NotificationsStack/NotificationsStack'
+import FavoritesScreenStack from '~/routes/FavoritesStack/FavoritesStack'
 import ProfileScreenStack from '~/routes/ProfileStack/ProfileStack'
 
 const Tab = createBottomTabNavigator<TRouteTab>()
@@ -16,16 +14,8 @@ const Tabs: IStackScreen[] = [
     component: HomeScreenStack,
   },
   {
-    name: 'DiscoverTab',
-    component: DiscoverScreenStack,
-  },
-  {
-    name: 'CollectibleTab',
-    component: CollectibleScreenStack,
-  },
-  {
-    name: 'NotificationsTab',
-    component: NotificationsScreenStack,
+    name: 'FavoritesTab',
+    component: FavoritesScreenStack,
   },
   {
     name: 'ProfileTab',

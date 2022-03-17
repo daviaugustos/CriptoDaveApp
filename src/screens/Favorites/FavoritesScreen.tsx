@@ -1,9 +1,9 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { Container } from '~/screens/Notifications/NotificationsScreen.styles'
+import { Container } from '~/screens/Favorites/FavoritesScreen.styles'
 
-const NotificationsScreen = () => {
+const FavoritesScreen = () => {
   return (
     <Container>
       <Text>XDDDDXDDDDXDDDDXDDDDXDDDDXDDDDXDDDDXDDDDXDDDDXDDDDXDDDDXDDDD</Text>
@@ -11,4 +11,4 @@ const NotificationsScreen = () => {
   )
 }
 
-export default NotificationsScreen
+export default FavoritesScreen
