@@ -145,7 +145,6 @@
 				77F308E9821D1A5AD94FFBF8 /* Pods-HomeFinderApp-HomeFinderAppTests.debug.xcconfig */,
 				968EB4D57B26C718BEDC0399 /* Pods-HomeFinderApp-HomeFinderAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 442WD2MVB4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HomeFinderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 442WD2MVB4;
 				INFOPLIST_FILE = HomeFinderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
