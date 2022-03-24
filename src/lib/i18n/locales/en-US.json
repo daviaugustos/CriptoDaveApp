@@ -1,9 +1,12 @@
 {
   "header_title": {
     "home": "Find your next home!",
-    "discover": "Discover",
-    "favorite": "New favorite",
-    "notifications": "Notifications",
+    "favorite": "Houses saved",
     "profile": "Profile"
+  },
+  "tabs_labels": {
+    "home_tab": "Search",
+    "favorites_tab": "Favorites",
+    "profile_tab": "Profile"
   }
 }
