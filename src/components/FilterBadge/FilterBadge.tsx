@@ -3,6 +3,7 @@ import {
   BadgeContainer,
   BadgeText,
   RemoveBadgeView,
+  CloseIcon,
 } from '~/components/FilterBadge/FilterBadge.styles'
 
 const FilterBadge = () => {
@@ -10,7 +11,7 @@ const FilterBadge = () => {
     <BadgeContainer>
       <BadgeText>Toronto</BadgeText>
       <RemoveBadgeView>
-        <BadgeText>X</BadgeText>
+        <CloseIcon name="close" size={20} />
       </RemoveBadgeView>
     </BadgeContainer>
   )

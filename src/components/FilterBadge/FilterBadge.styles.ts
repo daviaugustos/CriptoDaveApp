@@ -1,5 +1,6 @@
 import { Platform } from 'react-native'
 import styled from 'styled-components/native'
+import MaterialIcon from 'react-native-vector-icons/MaterialIcons'
 
 export const BadgeContainer = styled.View`
   height: 100%;
@@ -12,7 +13,7 @@ export const BadgeContainer = styled.View`
 `
 
 export const BadgeText = styled.Text`
-  color: purple;
+  color: black;
 `
 export const RemoveBadgeView = styled.View`
   height: 100%;
@@ -20,3 +21,11 @@ export const RemoveBadgeView = styled.View`
   justify-content: center;
   padding-horizontal: 5px;
 `
+
+export const CloseIcon = styled(MaterialIcon)`
+  color: gray;
+`
+
+// export const CountryNextArrow = styled(MaterialIcon)`
+//   color: ${({ theme }) => theme.colors.title.septenary};
+// `
