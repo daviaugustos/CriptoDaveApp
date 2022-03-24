@@ -4,14 +4,16 @@ import { useTheme } from 'styled-components'
 
 import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import HomeScreen from '~/screens/Home/HomeScreen'
-import HomeTitle from '~/components/HomeTitle/HomeTitle'
+import HomeHeaderTitle from '~/components/HomeHeaderTitle/HomeHeaderTitle'
+import HomeHeaderFilter from '~/components/HomeHeaderFilter/HomeHeaderFilter'
 
 const HOME_SCREENS: IStackScreen[] = [
   {
     name: 'Home',
     component: HomeScreen,
     screenOptions: {
-      headerTitle: () => <HomeTitle />,
+      headerTitle: () => <HomeHeaderTitle />,
+      headerRight: () => <HomeHeaderFilter />,
     },
   },
 ]

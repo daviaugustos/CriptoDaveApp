@@ -3,9 +3,9 @@ import translate from '~/lib/i18n/i18n'
 import {
   TitleContainer,
   TitleText,
-} from '~/components/HomeTitle/HomeTitle.style'
+} from '~/components/HomeHeaderTitle/HomeHeaderTitle.style'
 
-const HomeTitle = () => {
+const HomeHeaderTitle = () => {
   return (
     <TitleContainer>
       <TitleText>{translate('header_title.home')}</TitleText>
@@ -13,4 +13,4 @@ const HomeTitle = () => {
   )
 }
 
-export default HomeTitle
+export default HomeHeaderTitle
