@@ -13,7 +13,7 @@ export const BadgeContainer = styled.View`
 `
 
 export const BadgeText = styled.Text`
-  color: black;
+  color: ${({ theme }) => theme.colors.title.quinary};
 `
 export const RemoveBadgeView = styled.View`
   height: 100%;
@@ -25,7 +25,3 @@ export const RemoveBadgeView = styled.View`
 export const CloseIcon = styled(MaterialIcon)`
   color: gray;
 `
-
-// export const CountryNextArrow = styled(MaterialIcon)`
-//   color: ${({ theme }) => theme.colors.title.septenary};
-// `

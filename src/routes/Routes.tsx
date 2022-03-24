@@ -1,5 +1,6 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { useTheme } from 'styled-components'
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons'
 
@@ -20,7 +21,6 @@ const Tabs: IStackScreen[] = [
       tabBarIcon: ({ color }) => (
         <MaterialCommunityIcon name="map-search" size={25} color={color} />
       ),
-      tabBarActiveTintColor: '#0a856e',
     },
   },
   {
@@ -31,7 +31,6 @@ const Tabs: IStackScreen[] = [
       tabBarIcon: ({ color }) => (
         <MaterialIcon name="favorite" size={23} color={color} />
       ),
-      tabBarActiveTintColor: '#0a856e',
     },
   },
   {
@@ -42,12 +41,12 @@ const Tabs: IStackScreen[] = [
       tabBarIcon: ({ color }) => (
         <MaterialCommunityIcon name="account-cog" size={25} color={color} />
       ),
-      tabBarActiveTintColor: '#0a856e',
     },
   },
 ]
 
 const Routes: React.FC = () => {
+  const themeSelected = useTheme()
   return (
     <Tab.Navigator
       initialRouteName="HomeTab"
@@ -56,7 +55,14 @@ const Routes: React.FC = () => {
       }}
     >
       {Tabs.map((tabItem, index) => (
-        <Tab.Screen key={index} {...tabItem} />
+        <Tab.Screen
+          key={index}
+          {...tabItem}
+          options={{
+            ...tabItem.options,
+            tabBarActiveTintColor: themeSelected.colors.title.primary,
+          }}
+        />
       ))}
     </Tab.Navigator>
   )
