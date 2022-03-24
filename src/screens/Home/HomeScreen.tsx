@@ -1,20 +1,19 @@
 import React from 'react'
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
+import { PROVIDER_GOOGLE } from 'react-native-maps'
 
-import { Container } from '~/screens/Home/HomeScreen.styles'
+import {
+  Container,
+  MapContainer,
+  MapContainerView,
+  FilterView,
+} from '~/screens/Home/HomeScreen.styles'
+import FilterSection from '~/components/FilterSection/FilterSection'
 
 const HomeScreen = () => {
   return (
     <Container>
-      <MapView
+      <MapContainer
         provider={PROVIDER_GOOGLE}
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          bottom: 0,
-          right: 0,
-        }}
         initialRegion={{
           latitude: 37.78825,
           longitude: -122.4324,
@@ -22,6 +21,10 @@ const HomeScreen = () => {
           longitudeDelta: 0.0421,
         }}
       />
+      <FilterView>
+        <FilterSection />
+      </FilterView>
+      <MapContainerView />
     </Container>
   )
 }

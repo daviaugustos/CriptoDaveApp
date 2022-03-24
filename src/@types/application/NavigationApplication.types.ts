@@ -36,5 +36,5 @@ export type TStackScreens = THomeStackScreens &
 export interface IStackScreen {
   name: keyof TStackScreens
   component: React.ComponentType<any>
-  options?: NativeStackNavigationOptions
+  screenOptions?: NativeStackNavigationOptions
 }
