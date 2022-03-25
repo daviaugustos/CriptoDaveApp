@@ -1,30 +1,49 @@
-import React from 'react'
-import { PROVIDER_GOOGLE } from 'react-native-maps'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { PROVIDER_GOOGLE, Marker } from 'react-native-maps'
 
 import {
   Container,
   MapContainer,
-  MapContainerView,
   FilterView,
 } from '~/screens/Home/HomeScreen.styles'
 import FilterSection from '~/components/FilterSection/FilterSection'
+import { houseGetLocations } from '~/store/House/HouseCreators'
+import { TApplicationState } from '~/store/StoreConfig'
 
 const HomeScreen = () => {
+  const dispatch = useDispatch()
+  const houses = useSelector(
+    (state: TApplicationState) => state.house.housesData,
+  )
+
+  useEffect(() => {
+    dispatch(houseGetLocations())
+  }, [dispatch])
   return (
     <Container>
       <MapContainer
         provider={PROVIDER_GOOGLE}
         initialRegion={{
-          latitude: 37.78825,
-          longitude: -122.4324,
+          latitude: 52.639332,
+          longitude: -1.135906,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}
-      />
+      >
+        {houses.map((houseItem, index) => (
+          <Marker
+            key={index}
+            coordinate={{
+              latitude: houseItem.location.latitude,
+              longitude: houseItem.location.longitude,
+            }}
+          ></Marker>
+        ))}
+      </MapContainer>
       <FilterView>
         <FilterSection />
       </FilterView>
-      <MapContainerView />
     </Container>
   )
 }

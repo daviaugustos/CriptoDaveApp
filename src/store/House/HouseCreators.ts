@@ -1,5 +1,6 @@
 import { Reducer } from 'redux'
 import { IHouseState, EHouseTypes } from '~/store/House/HouseTypes'
+import { IHouseItem } from '~/@types/entities/HouseEntity'
 import { TCheckboxItem } from '~/components/MultipleCheckbox/MultipleCheckbox'
 
 const propertyTypes: TCheckboxItem[] = [
@@ -25,6 +26,8 @@ const propertyTypes: TCheckboxItem[] = [
 
 const INITIAL_STATE: IHouseState = {
   propertyTypeSelected: [...propertyTypes],
+  housesData: [],
+  filteredHouses: [],
 }
 
 const HouseReducer: Reducer<IHouseState> = (state = INITIAL_STATE, action) => {
@@ -33,6 +36,18 @@ const HouseReducer: Reducer<IHouseState> = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         propertyTypeSelected: action.payload,
+      }
+    }
+    case EHouseTypes.HOUSE_SET_LOCATIONS: {
+      return {
+        ...state,
+        housesData: action.payload,
+      }
+    }
+    case EHouseTypes.HOUSE_FILTER_LOCATIONS: {
+      return {
+        ...state,
+        filteredHouses: action.payload,
       }
     }
     default:
@@ -50,4 +65,17 @@ export const houseSetPropertyType = (propertiesSelected: TCheckboxItem[]) => ({
   payload: propertiesSelected,
 })
 
+export const houseGetLocations = () => ({
+  type: EHouseTypes.HOUSE_GET_LOCATIONS,
+})
+
+export const houseSetLocations = (housesData: IHouseItem[]) => ({
+  type: EHouseTypes.HOUSE_SET_LOCATIONS,
+  payload: housesData,
+})
+
+export const houseFilterLocations = (filteredHouses: IHouseItem[]) => ({
+  type: EHouseTypes.HOUSE_FILTER_LOCATIONS,
+  payload: filteredHouses,
+})
 export default HouseReducer

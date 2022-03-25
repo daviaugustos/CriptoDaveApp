@@ -14,6 +14,7 @@ export const Input = styled.TextInput`
   border-bottom-right-radius: 10px;
   height: 50%;
   width: 60%;
+  padding-left: 20px;
 `
 
 export const InputIconView = styled.View`

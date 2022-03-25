@@ -13,10 +13,13 @@ export const MapContainer = styled(MapView)`
   right: 0;
 `
 
-export const MapContainerView = styled.View`
-  flex: 8;
+export const FilterView = styled.View`
+  height: 150px;
 `
 
-export const FilterView = styled.View`
-  flex: 2;
+export const MarkerView = styled.TouchableOpacity`
+  border-radius: 5px;
+  background-color: ${({ theme }) => theme.colors.title.primary};
+  height: 30px;
+  width: 40px;
 `

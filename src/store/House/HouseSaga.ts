@@ -1,9 +1,15 @@
 import { takeLatest, select, put } from 'redux-saga/effects'
 
 import { EHouseTypes } from '~/store/House/HouseTypes'
+import { IHouseItem } from '~/@types/entities/HouseEntity'
 import { TCheckboxItem } from '~/components/MultipleCheckbox/MultipleCheckbox'
 import { TApplicationState } from '~/store/StoreConfig'
-import { houseSetPropertyType } from '~/store/House/HouseCreators'
+import {
+  houseSetPropertyType,
+  houseSetLocations,
+} from '~/store/House/HouseCreators'
+
+const HousesJson = require('~/store/House/house-data-stub.json')
 
 export function* deletePropertyTypeSaga(action) {
   try {
@@ -27,9 +33,26 @@ export function* deletePropertyTypeSaga(action) {
   }
 }
 
+export function* getLocationsSaga() {
+  try {
+    const convertedLocations: IHouseItem[] = HousesJson.map(houseItem => ({
+      ...houseItem,
+      location: {
+        ...houseItem.location,
+        latitude: parseFloat(houseItem.location.latitude),
+        longitude: parseFloat(houseItem.location.longitude),
+      },
+    }))
+    yield put(houseSetLocations(convertedLocations))
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export default function* () {
   yield takeLatest(
     EHouseTypes.HOUSE_DELETE_PROPERTY_TYPE,
     deletePropertyTypeSaga,
   )
+  yield takeLatest(EHouseTypes.HOUSE_GET_LOCATIONS, getLocationsSaga)
 }

@@ -1,0 +1,1378 @@
+[
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.639332",
+          "street":{
+             "id":883327,
+             "name":"On or near St Margaret's Way"
+          },
+          "longitude":"-1.135906"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78217368,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629778",
+          "street":{
+             "id":883285,
+             "name":"On or near Brookhouse Avenue"
+          },
+          "longitude":"-1.121585"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78211001,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627729",
+          "street":{
+             "id":883058,
+             "name":"On or near Churchill Street"
+          },
+          "longitude":"-1.116884"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78211002,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.632246",
+          "street":{
+             "id":883311,
+             "name":"On or near York Street"
+          },
+          "longitude":"-1.129529"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209578,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637069",
+          "street":{
+             "id":883413,
+             "name":"On or near Supermarket"
+          },
+          "longitude":"-1.131414"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209580,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.625201",
+          "street":{
+             "id":882420,
+             "name":"On or near St James Road"
+          },
+          "longitude":"-1.114231"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78213706,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.643195",
+          "street":{
+             "id":884360,
+             "name":"On or near Conference\/exhibition Centre"
+          },
+          "longitude":"-1.129430"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78217351,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630787",
+          "street":{
+             "id":883346,
+             "name":"On or near Marlborough Street"
+          },
+          "longitude":"-1.132897"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78208800,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78210735,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.634824",
+          "street":{
+             "id":883427,
+             "name":"On or near Janet Setchfield Place"
+          },
+          "longitude":"-1.139112"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78208797,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.638971",
+          "street":{
+             "id":883385,
+             "name":"On or near Burgess Street"
+          },
+          "longitude":"-1.138233"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209848,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637327",
+          "street":{
+             "id":883382,
+             "name":"On or near Camden Street"
+          },
+          "longitude":"-1.127374"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209854,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630869",
+          "street":{
+             "id":883546,
+             "name":"On or near Linkway Gardens"
+          },
+          "longitude":"-1.154142"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209856,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630212",
+          "street":{
+             "id":883271,
+             "name":"On or near Nelson Street"
+          },
+          "longitude":"-1.124369"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209857,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.633190",
+          "street":{
+             "id":883104,
+             "name":"On or near Pluto Close"
+          },
+          "longitude":"-1.116168"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209858,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.636388",
+          "street":{
+             "id":883512,
+             "name":"On or near Dannett Street"
+          },
+          "longitude":"-1.150238"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209864,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.621287",
+          "street":{
+             "id":882350,
+             "name":"On or near Sports\/recreation Area"
+          },
+          "longitude":"-1.136881"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "highrise",
+       "id":78209868,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.625484",
+          "street":{
+             "id":882399,
+             "name":"On or near Further\/higher Educational Building"
+          },
+          "longitude":"-1.120770"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "detached",
+       "id":78209884,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.635121",
+          "street":{
+             "id":883430,
+             "name":"On or near High Street"
+          },
+          "longitude":"-1.139077"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78209886,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.628613",
+          "street":{
+             "id":883221,
+             "name":"On or near Highfield Street"
+          },
+          "longitude":"-1.118388"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78209889,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627817",
+          "street":{
+             "id":883258,
+             "name":"On or near Further\/higher Educational Building"
+          },
+          "longitude":"-1.134803"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78209891,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.632887",
+          "street":{
+             "id":883388,
+             "name":"On or near Belvoir Street"
+          },
+          "longitude":"-1.131127"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78209038,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627744",
+          "street":{
+             "id":883202,
+             "name":"On or near Mandora Lane"
+          },
+          "longitude":"-1.118922"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78209039,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630869",
+          "street":{
+             "id":883546,
+             "name":"On or near Linkway Gardens"
+          },
+          "longitude":"-1.154142"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78208788,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.636033",
+          "street":{
+             "id":883368,
+             "name":"On or near Freeschool Lane"
+          },
+          "longitude":"-1.138424"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78208786,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.640901",
+          "street":{
+             "id":884315,
+             "name":"On or near Yukon Way"
+          },
+          "longitude":"-1.124274"
+       },
+       "context":"",
+       "price": 1280000,
+       "property_type": "townhouse",
+       "id":78210978,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.641930",
+          "street":{
+             "id":884324,
+             "name":"On or near Monckton Close"
+          },
+          "longitude":"-1.124889"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78209055,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.628075",
+          "street":{
+             "id":883046,
+             "name":"On or near St Stephens Road"
+          },
+          "longitude":"-1.113804"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78209053,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637366",
+          "street":{
+             "id":883286,
+             "name":"On or near Bell Lane"
+          },
+          "longitude":"-1.121640"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78211508,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.638140",
+          "street":{
+             "id":883483,
+             "name":"On or near Nugent Street"
+          },
+          "longitude":"-1.150101"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78209032,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78210733,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.625201",
+          "street":{
+             "id":882420,
+             "name":"On or near St James Road"
+          },
+          "longitude":"-1.114231"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78212090,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.635598",
+          "street":{
+             "id":883314,
+             "name":"On or near Yeoman Lane"
+          },
+          "longitude":"-1.129330"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78211509,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.616961",
+          "street":{
+             "id":882391,
+             "name":"On or near Hartopp Road"
+          },
+          "longitude":"-1.120719"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78211518,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.626988",
+          "street":{
+             "id":882307,
+             "name":"On or near Further\/higher Educational Building"
+          },
+          "longitude":"-1.123532"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78211524,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.633145",
+          "street":{
+             "id":883365,
+             "name":"On or near Granby Street"
+          },
+          "longitude":"-1.129511"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78214252,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627126",
+          "street":{
+             "id":882309,
+             "name":"On or near Eastern Boulevard"
+          },
+          "longitude":"-1.142455"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78214256,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.617692",
+          "street":{
+             "id":882389,
+             "name":"On or near Oxford Road"
+          },
+          "longitude":"-1.118725"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78214274,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.635598",
+          "street":{
+             "id":883314,
+             "name":"On or near Yeoman Lane"
+          },
+          "longitude":"-1.129330"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78214285,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627470",
+          "street":{
+             "id":883260,
+             "name":"On or near Princess Road East"
+          },
+          "longitude":"-1.124409"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212094,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.639138",
+          "street":{
+             "id":883355,
+             "name":"On or near Junior Street"
+          },
+          "longitude":"-1.137683"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212361,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.625201",
+          "street":{
+             "id":882420,
+             "name":"On or near St James Road"
+          },
+          "longitude":"-1.114231"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212098,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.634279",
+          "street":{
+             "id":883366,
+             "name":"On or near Granby Place"
+          },
+          "longitude":"-1.130922"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212099,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.639138",
+          "street":{
+             "id":883355,
+             "name":"On or near Junior Street"
+          },
+          "longitude":"-1.137683"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212366,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.634407",
+          "street":{
+             "id":883407,
+             "name":"On or near Shopping Area"
+          },
+          "longitude":"-1.133653"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212367,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630562",
+          "street":{
+             "id":883531,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.153971"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78215462,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637712",
+          "street":{
+             "id":883292,
+             "name":"On or near Haymarket Bus Station"
+          },
+          "longitude":"-1.130751"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78215446,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.639335",
+          "street":{
+             "id":883362,
+             "name":"On or near Gravel Street"
+          },
+          "longitude":"-1.133940"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212101,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637432",
+          "street":{
+             "id":883333,
+             "name":"On or near Potter Street"
+          },
+          "longitude":"-1.126885"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78215447,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78212104,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.635598",
+          "street":{
+             "id":883314,
+             "name":"On or near Yeoman Lane"
+          },
+          "longitude":"-1.129330"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78215450,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78211526,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.636110",
+          "street":{
+             "id":883290,
+             "name":"On or near Humberstone Gate"
+          },
+          "longitude":"-1.131802"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78211800,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637005",
+          "street":{
+             "id":883354,
+             "name":"On or near Kildare Street"
+          },
+          "longitude":"-1.130026"
+       },
+       "context":"",
+       "price": 600000,
+       "property_type": "townhouse",
+       "id":78211817,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629348",
+          "street":{
+             "id":883343,
+             "name":"On or near Museum Square"
+          },
+          "longitude":"-1.129040"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78211818,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.639267",
+          "street":{
+             "id":883267,
+             "name":"On or near Quebec Road"
+          },
+          "longitude":"-1.123420"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78215458,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629348",
+          "street":{
+             "id":883343,
+             "name":"On or near Museum Square"
+          },
+          "longitude":"-1.129040"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78216786,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.633347",
+          "street":{
+             "id":883387,
+             "name":"On or near Berridge Street"
+          },
+          "longitude":"-1.135034"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "townhouse",
+       "id":78210732,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78210993,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630187",
+          "street":{
+             "id":883281,
+             "name":"On or near College Street"
+          },
+          "longitude":"-1.120956"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78212088,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627147",
+          "street":{
+             "id":883047,
+             "name":"On or near St Albans Road"
+          },
+          "longitude":"-1.117117"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78216622,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.633145",
+          "street":{
+             "id":883365,
+             "name":"On or near Granby Street"
+          },
+          "longitude":"-1.129511"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78210994,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630562",
+          "street":{
+             "id":883531,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.153971"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78216567,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.625201",
+          "street":{
+             "id":882420,
+             "name":"On or near St James Road"
+          },
+          "longitude":"-1.114231"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78213433,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.636721",
+          "street":{
+             "id":883359,
+             "name":"On or near Haymarket"
+          },
+          "longitude":"-1.132898"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78215460,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.635598",
+          "street":{
+             "id":883314,
+             "name":"On or near Yeoman Lane"
+          },
+          "longitude":"-1.129330"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78213411,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637600",
+          "street":{
+             "id":883324,
+             "name":"On or near St Peters Lane"
+          },
+          "longitude":"-1.135171"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78212911,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.632887",
+          "street":{
+             "id":883388,
+             "name":"On or near Belvoir Street"
+          },
+          "longitude":"-1.131127"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78212915,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.639138",
+          "street":{
+             "id":883355,
+             "name":"On or near Junior Street"
+          },
+          "longitude":"-1.137683"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78212917,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78212918,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629348",
+          "street":{
+             "id":883343,
+             "name":"On or near Museum Square"
+          },
+          "longitude":"-1.129040"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78212937,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630546",
+          "street":{
+             "id":883338,
+             "name":"On or near Norton Street"
+          },
+          "longitude":"-1.134261"
+       },
+       "context":"",
+       "price": 4775000,
+       "property_type": "detached",
+       "id":78212368,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.632977",
+          "street":{
+             "id":883315,
+             "name":"On or near Wycliffe Street"
+          },
+          "longitude":"-1.136001"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78209880,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78212369,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629292",
+          "street":{
+             "id":883212,
+             "name":"On or near Severn Street"
+          },
+          "longitude":"-1.117842"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78217302,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.638452",
+          "street":{
+             "id":883307,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.128697"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78211813,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.637414",
+          "street":{
+             "id":883138,
+             "name":"On or near Hart Road"
+          },
+          "longitude":"-1.113600"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78217292,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.630546",
+          "street":{
+             "id":883338,
+             "name":"On or near Norton Street"
+          },
+          "longitude":"-1.134261"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78211822,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.627959",
+          "street":{
+             "id":883060,
+             "name":"On or near Bartholomew Street"
+          },
+          "longitude":"-1.111560"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78217054,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.642180",
+          "street":{
+             "id":884424,
+             "name":"On or near Kashmir Road"
+          },
+          "longitude":"-1.119859"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78210426,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.633347",
+          "street":{
+             "id":883387,
+             "name":"On or near Berridge Street"
+          },
+          "longitude":"-1.135034"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78210173,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.629835",
+          "street":{
+             "id":883303,
+             "name":"On or near Parking Area"
+          },
+          "longitude":"-1.133005"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78213207,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.643195",
+          "street":{
+             "id":884360,
+             "name":"On or near Conference\/exhibition Centre"
+          },
+          "longitude":"-1.129430"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78213186,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.623341",
+          "street":{
+             "id":882285,
+             "name":"On or near Ivy Road"
+          },
+          "longitude":"-1.152441"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78213188,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.636721",
+          "street":{
+             "id":883359,
+             "name":"On or near Haymarket"
+          },
+          "longitude":"-1.132898"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78213191,
+       "location_subtype":""
+    },
+    {
+       "location_type":"House",
+       "location":{
+          "latitude":"52.636250",
+          "street":{
+             "id":883415,
+             "name":"On or near Shopping Area"
+          },
+          "longitude":"-1.133691"
+       },
+       "context":"",
+       "price": 2350000,
+       "property_type": "detached",
+       "id":78213197,
+       "location_subtype":""
+    }
+]
