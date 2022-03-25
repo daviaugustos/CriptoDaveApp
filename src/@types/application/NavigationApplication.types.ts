@@ -4,6 +4,7 @@ import { NativeStackNavigationOptions } from '@react-navigation/native-stack'
 
 export type THomeStackScreens = {
   Home: undefined
+  Filters: undefined
   ItemDetail: undefined
 }
 
@@ -12,9 +13,9 @@ export type TDiscoverStackScreens = {
   CategoryDetail: undefined
 }
 
-export type TCollectibleStackScreens = {
-  CreateCollectible: undefined
-  FinishCollectible: undefined
+export type TFavoritesStackScreens = {
+  CreateFavorites: undefined
+  FinishFavorites: undefined
 }
 
 export type TNotificationsStackScreens = {
@@ -29,12 +30,12 @@ export type TProfileStackScreens = {
 
 export type TStackScreens = THomeStackScreens &
   TDiscoverStackScreens &
-  TCollectibleStackScreens &
+  TFavoritesStackScreens &
   TNotificationsStackScreens &
   TProfileStackScreens
 
 export interface IStackScreen {
   name: keyof TStackScreens
   component: React.ComponentType<any>
-  options?: NativeStackNavigationOptions
+  screenOptions?: NativeStackNavigationOptions
 }

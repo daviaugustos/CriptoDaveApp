@@ -4,9 +4,7 @@ import { BottomTabNavigationOptions } from '@react-navigation/bottom-tabs'
 
 export type TRouteTab = {
   HomeTab: undefined
-  DiscoverTab: undefined
-  CollectibleTab: undefined
-  NotificationsTab: undefined
+  FavoritesTab: undefined
   ProfileTab: undefined
 }
 

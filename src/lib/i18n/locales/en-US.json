@@ -1,9 +1,22 @@
 {
   "header_title": {
-    "home": "Dave.",
-    "discover": "Discover",
-    "collectible": "New collectible",
-    "notifications": "Notifications",
+    "home": "Find your next home!",
+    "favorite": "Houses saved",
     "profile": "Profile"
+  },
+  "tabs_labels": {
+    "home_tab": "Search",
+    "favorites_tab": "Favorites",
+    "profile_tab": "Profile"
+  },
+  "filter": {
+    "property_type_title": "Property Type",
+    "cancel": "Cancel",
+    "confirm": "View home for sales"
+  },
+  "home": {
+    "filter_section": {
+      "input_placeholder": "Any area or listing"
+    }
   }
 }

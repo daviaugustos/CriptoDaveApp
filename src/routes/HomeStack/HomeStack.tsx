@@ -1,32 +1,52 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { useTheme } from 'styled-components'
 
-import translate from '~/lib/i18n/i18n'
 import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import HomeScreen from '~/screens/Home/HomeScreen'
+import HomeHeaderTitle from '~/components/HomeHeaderTitle/HomeHeaderTitle'
+import HomeHeaderFilter from '~/components/HomeHeaderFilter/HomeHeaderFilter'
+import FiltersScreen from '~/screens/Filters/FiltersScreen'
 
 const HOME_SCREENS: IStackScreen[] = [
   {
     name: 'Home',
     component: HomeScreen,
+    screenOptions: {
+      headerTitle: () => <HomeHeaderTitle />,
+      headerRight: () => <HomeHeaderFilter />,
+    },
+  },
+  {
+    name: 'Filters',
+    component: FiltersScreen,
+    screenOptions: {
+      headerShown: false,
+      presentation: 'modal',
+    },
   },
 ]
 
 const Stack = createNativeStackNavigator()
 
-const HomeScreenStack = () => (
-  <Stack.Navigator
-    screenOptions={{
-      title: translate('header_title.home'),
-      headerStyle: {
-        backgroundColor: 'grey',
-      },
-    }}
-  >
-    {HOME_SCREENS.map(({ name, component }, index) => (
-      <Stack.Screen key={index} name={name} component={component} />
-    ))}
-  </Stack.Navigator>
-)
+const HomeScreenStack: React.FC = () => {
+  const themeSelected = useTheme()
+  return (
+    <Stack.Navigator>
+      {HOME_SCREENS.map((screenItem, index) => (
+        <Stack.Screen
+          key={index}
+          {...screenItem}
+          options={{
+            ...screenItem.screenOptions,
+            headerStyle: {
+              backgroundColor: themeSelected.colors.title.primary,
+            },
+          }}
+        />
+      ))}
+    </Stack.Navigator>
+  )
+}
 
 export default HomeScreenStack

@@ -1,0 +1,17 @@
+{
+  "header_title": {
+    "home": "Trouvez votre prochaine maison!",
+    "favorite": "Maisons sauvées",
+    "profile": "Profil"
+  },
+  "tabs_labels": {
+    "home_tab": "Rechercher",
+    "favorites_tab": "Favoris",
+    "profile_tab": "Profil"
+  },
+  "filter": {
+    "property_type_title": "Property Type",
+    "cancel": "Cancel",
+    "confirm": "View %{houseNumber} home for sales"
+  }
+}

@@ -4,8 +4,7 @@ import I18n from 'i18n-js'
 
 import { II18nParameter } from '~/@types/application/I18nApplication.types'
 import enUS from '~/lib/i18n/locales/en-US.json'
-import es from '~/lib/i18n/locales/es.json'
-import ptBR from '~/lib/i18n/locales/pt-BR.json'
+import frCA from '~/lib/i18n/locales/fr-CA.json'
 
 const locales = RNLocalize.getLocales()
 
@@ -17,8 +16,7 @@ I18n.defaultLocale = 'en-US'
 I18n.fallbacks = true
 I18n.translations = {
   'en-US': enUS,
-  es,
-  'pt-BR': ptBR,
+  'fr-CA': frCA,
 }
 
 const translate = (key: string, parameter?: II18nParameter) =>
