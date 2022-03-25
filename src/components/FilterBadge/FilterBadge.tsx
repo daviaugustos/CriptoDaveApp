@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
   BadgeContainer,
   BadgeText,
@@ -6,11 +7,16 @@ import {
   CloseIcon,
 } from '~/components/FilterBadge/FilterBadge.styles'
 
-const FilterBadge = () => {
+interface FilterBadgeProps {
+  label: string
+  onClose: () => void
+}
+
+const FilterBadge: React.FC<FilterBadgeProps> = ({ label, onClose }) => {
   return (
     <BadgeContainer>
-      <BadgeText>Toronto</BadgeText>
-      <RemoveBadgeView>
+      <BadgeText>{label}</BadgeText>
+      <RemoveBadgeView onPress={() => onClose()}>
         <CloseIcon name="close" size={20} />
       </RemoveBadgeView>
     </BadgeContainer>

@@ -15,7 +15,7 @@ export const BadgeContainer = styled.View`
 export const BadgeText = styled.Text`
   color: ${({ theme }) => theme.colors.title.quinary};
 `
-export const RemoveBadgeView = styled.View`
+export const RemoveBadgeView = styled.TouchableOpacity`
   height: 100%;
   align-items: center;
   justify-content: center;

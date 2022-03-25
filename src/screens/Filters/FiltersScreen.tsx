@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useCallback } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigation } from '@react-navigation/native'
 import {
   Container,
@@ -16,43 +17,34 @@ import MultipleCheckbox, {
   TCheckboxItem,
 } from '~/components/MultipleCheckbox/MultipleCheckbox'
 import translate from '~/lib/i18n/i18n'
-
-const propertyTypes: TCheckboxItem[] = [
-  {
-    title: 'Detached Homes',
-    details: 'no shared wall',
-    name: 'detached',
-    value: false,
-  },
-  {
-    title: 'Townhouses',
-    details: 'multi-level & shared walls',
-    name: 'townhouse',
-    value: false,
-  },
-  {
-    title: 'High Rise Condos',
-    details: '5 or more levels',
-    name: 'highrise',
-    value: false,
-  },
-]
+import { houseSetPropertyType } from '~/store/House/HouseCreators'
+import { TApplicationState } from '~/store/StoreConfig'
 
 const FilterScreen = () => {
   const navigation = useNavigation()
+  const dispatch = useDispatch()
+  const propertyTypesSelected = useSelector(
+    (state: TApplicationState) => state.house.propertyTypeSelected,
+  )
+
   const onCancel = () => {
     navigation.goBack()
   }
+
+  const onSelect = useCallback(
+    (selectedItems: TCheckboxItem[]) => {
+      dispatch(houseSetPropertyType(selectedItems))
+    },
+    [dispatch],
+  )
 
   return (
     <Container>
       <FilterInputsView>
         <MultipleCheckbox
           title={translate('filter.property_type_title')}
-          callback={(selectedItems: TCheckboxItem[]) =>
-            console.log(selectedItems)
-          }
-          arrayData={propertyTypes}
+          callback={selectedItems => onSelect(selectedItems)}
+          arrayData={propertyTypesSelected}
         />
       </FilterInputsView>
       <FilterOptionsView>

@@ -46,10 +46,7 @@ const MultipleCheckbox: React.FC<IMultipleCheckboxProps> = ({
   }
 
   useEffect(() => {
-    const selectedValues = checkBoxesData.filter(
-      checkboxItem => checkboxItem.value,
-    )
-    callback(selectedValues)
+    callback(checkBoxesData)
   }, [callback, checkBoxesData])
 
   return (
