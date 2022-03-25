@@ -20,6 +20,10 @@ export const FilterView = styled.View`
 export const MarkerView = styled.TouchableOpacity`
   border-radius: 5px;
   background-color: ${({ theme }) => theme.colors.title.primary};
-  height: 30px;
-  width: 40px;
+  padding: 3px;
+`
+
+export const PriceText = styled.Text`
+  color: ${({ theme }) => theme.colors.title.tertiary};
+  font-size: 15px;
 `

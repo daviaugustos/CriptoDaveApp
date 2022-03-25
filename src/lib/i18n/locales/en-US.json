@@ -12,7 +12,7 @@
   "filter": {
     "property_type_title": "Property Type",
     "cancel": "Cancel",
-    "confirm": "View %{houseNumber} home for sales"
+    "confirm": "View home for sales"
   },
   "home": {
     "filter_section": {

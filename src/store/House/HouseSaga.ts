@@ -8,6 +8,7 @@ import {
   houseSetPropertyType,
   houseSetLocations,
   houseFilterLocations,
+  houseFilterByProperty,
 } from '~/store/House/HouseCreators'
 
 const HousesJson = require('~/store/House/house-data-stub.json')
@@ -29,6 +30,7 @@ export function* deletePropertyTypeSaga(action) {
     })
 
     yield put(houseSetPropertyType(updatedProperties))
+    yield put(houseFilterByProperty(updatedProperties))
   } catch (error) {
     console.log(error)
   }
@@ -50,18 +52,36 @@ export function* getLocationsSaga() {
   }
 }
 
-export function* searchLocationsSga(action) {
+export function* searchLocationsSaga(action) {
   try {
-    const propertyTypeSelected: IHouseItem[] = yield select(
+    const houseData: IHouseItem[] = yield select(
       (state: TApplicationState) => state.house.housesData,
     )
     const termSearched = action.payload.toLowerCase()
 
-    const filteredHouses = propertyTypeSelected.filter(houseItem =>
+    const filteredHouses = houseData.filter(houseItem =>
       houseItem.location.street.name.includes(termSearched),
     )
-    console.log(filteredHouses)
     yield put(houseFilterLocations(filteredHouses))
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export function* filterByPropertyTypeSaga(action) {
+  try {
+    const houseData: IHouseItem[] = yield select(
+      (state: TApplicationState) => state.house.housesData,
+    )
+    const selectedPropertyTypes = action.payload
+      .filter(propertyItem => propertyItem.value)
+      .map(propertyItem => propertyItem.name)
+
+    const filteredHouses = houseData.filter(houseItem =>
+      selectedPropertyTypes.includes(houseItem.property_type),
+    )
+    yield put(houseFilterLocations(filteredHouses))
+    yield put(houseSetPropertyType(action.payload))
   } catch (error) {
     console.log(error)
   }
@@ -73,5 +93,9 @@ export default function* () {
     deletePropertyTypeSaga,
   )
   yield takeLatest(EHouseTypes.HOUSE_GET_LOCATIONS, getLocationsSaga)
-  yield takeLatest(EHouseTypes.HOUSE_SEARCH_LOCATIONS, searchLocationsSga)
+  yield takeLatest(EHouseTypes.HOUSE_SEARCH_LOCATIONS, searchLocationsSaga)
+  yield takeLatest(
+    EHouseTypes.HOUSE_FILTER_BY_PROPERTY_TYPE,
+    filterByPropertyTypeSaga,
+  )
 }

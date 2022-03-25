@@ -17,7 +17,7 @@ import MultipleCheckbox, {
   TCheckboxItem,
 } from '~/components/MultipleCheckbox/MultipleCheckbox'
 import translate from '~/lib/i18n/i18n'
-import { houseSetPropertyType } from '~/store/House/HouseCreators'
+import { houseFilterByProperty } from '~/store/House/HouseCreators'
 import { TApplicationState } from '~/store/StoreConfig'
 
 const FilterScreen = () => {
@@ -33,7 +33,7 @@ const FilterScreen = () => {
 
   const onSelect = useCallback(
     (selectedItems: TCheckboxItem[]) => {
-      dispatch(houseSetPropertyType(selectedItems))
+      dispatch(houseFilterByProperty(selectedItems))
     },
     [dispatch],
   )
@@ -55,10 +55,8 @@ const FilterScreen = () => {
           </CancelButton>
         </CancelView>
         <ConfirmView>
-          <ConfirmButton>
-            <ConfirmButtonText>
-              {translate('filter.confirm', { houseNumber: '0' })}
-            </ConfirmButtonText>
+          <ConfirmButton onPress={() => onCancel()}>
+            <ConfirmButtonText>{translate('filter.confirm')}</ConfirmButtonText>
           </ConfirmButton>
         </ConfirmView>
       </FilterOptionsView>

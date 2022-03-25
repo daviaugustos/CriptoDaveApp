@@ -84,4 +84,9 @@ export const houseSearchLocation = (searchTerm: string) => ({
   payload: searchTerm,
 })
 
+export const houseFilterByProperty = (properties: TCheckboxItem[]) => ({
+  type: EHouseTypes.HOUSE_FILTER_BY_PROPERTY_TYPE,
+  payload: properties,
+})
+
 export default HouseReducer

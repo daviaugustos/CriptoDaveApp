@@ -7,10 +7,12 @@ import {
   MapContainer,
   FilterView,
   MarkerView,
+  PriceText,
 } from '~/screens/Home/HomeScreen.styles'
 import FilterSection from '~/components/FilterSection/FilterSection'
 import { houseGetLocations } from '~/store/House/HouseCreators'
 import { TApplicationState } from '~/store/StoreConfig'
+import { getKMoneyAmount } from '~/helpers/currency'
 
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -34,15 +36,17 @@ const HomeScreen = () => {
           longitudeDelta: 0.0421,
         }}
       >
-        {houses.map((houseItem, index) => (
+        {houses.map(houseItem => (
           <Marker
-            key={index}
+            key={houseItem.id}
             coordinate={{
               latitude: houseItem.location.latitude,
               longitude: houseItem.location.longitude,
             }}
           >
-            <MarkerView />
+            <MarkerView>
+              <PriceText>{getKMoneyAmount(houseItem.price)}</PriceText>
+            </MarkerView>
           </Marker>
         ))}
       </MapContainer>
