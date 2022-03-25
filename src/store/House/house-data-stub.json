@@ -426,7 +426,7 @@
           "longitude":"-1.124889"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78209055,
        "location_subtype":""
@@ -442,7 +442,7 @@
           "longitude":"-1.113804"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78209053,
        "location_subtype":""
@@ -458,7 +458,7 @@
           "longitude":"-1.121640"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211508,
        "location_subtype":""
@@ -474,7 +474,7 @@
           "longitude":"-1.150101"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78209032,
        "location_subtype":""
@@ -490,7 +490,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78210733,
        "location_subtype":""
@@ -506,7 +506,7 @@
           "longitude":"-1.114231"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212090,
        "location_subtype":""
@@ -522,7 +522,7 @@
           "longitude":"-1.129330"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211509,
        "location_subtype":""
@@ -538,7 +538,7 @@
           "longitude":"-1.120719"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211518,
        "location_subtype":""
@@ -554,7 +554,7 @@
           "longitude":"-1.123532"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211524,
        "location_subtype":""
@@ -570,7 +570,7 @@
           "longitude":"-1.129511"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78214252,
        "location_subtype":""
@@ -586,7 +586,7 @@
           "longitude":"-1.142455"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78214256,
        "location_subtype":""
@@ -602,7 +602,7 @@
           "longitude":"-1.118725"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78214274,
        "location_subtype":""
@@ -618,7 +618,7 @@
           "longitude":"-1.129330"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78214285,
        "location_subtype":""
@@ -634,7 +634,7 @@
           "longitude":"-1.124409"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212094,
        "location_subtype":""
@@ -650,7 +650,7 @@
           "longitude":"-1.137683"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212361,
        "location_subtype":""
@@ -666,7 +666,7 @@
           "longitude":"-1.114231"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212098,
        "location_subtype":""
@@ -682,7 +682,7 @@
           "longitude":"-1.130922"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212099,
        "location_subtype":""
@@ -698,7 +698,7 @@
           "longitude":"-1.137683"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212366,
        "location_subtype":""
@@ -714,7 +714,7 @@
           "longitude":"-1.133653"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212367,
        "location_subtype":""
@@ -730,7 +730,7 @@
           "longitude":"-1.153971"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78215462,
        "location_subtype":""
@@ -746,7 +746,7 @@
           "longitude":"-1.130751"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78215446,
        "location_subtype":""
@@ -762,7 +762,7 @@
           "longitude":"-1.133940"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212101,
        "location_subtype":""
@@ -778,7 +778,7 @@
           "longitude":"-1.126885"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78215447,
        "location_subtype":""
@@ -794,7 +794,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78212104,
        "location_subtype":""
@@ -810,7 +810,7 @@
           "longitude":"-1.129330"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78215450,
        "location_subtype":""
@@ -826,7 +826,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211526,
        "location_subtype":""
@@ -842,7 +842,7 @@
           "longitude":"-1.131802"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211800,
        "location_subtype":""
@@ -858,7 +858,7 @@
           "longitude":"-1.130026"
        },
        "context":"",
-       "price": 600000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211817,
        "location_subtype":""
@@ -874,7 +874,7 @@
           "longitude":"-1.129040"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78211818,
        "location_subtype":""
@@ -890,7 +890,7 @@
           "longitude":"-1.123420"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78215458,
        "location_subtype":""
@@ -906,7 +906,7 @@
           "longitude":"-1.129040"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78216786,
        "location_subtype":""
@@ -922,7 +922,7 @@
           "longitude":"-1.135034"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "townhouse",
        "id":78210732,
        "location_subtype":""
@@ -938,7 +938,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78210993,
        "location_subtype":""
@@ -954,7 +954,7 @@
           "longitude":"-1.120956"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212088,
        "location_subtype":""
@@ -970,7 +970,7 @@
           "longitude":"-1.117117"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78216622,
        "location_subtype":""
@@ -986,7 +986,7 @@
           "longitude":"-1.129511"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78210994,
        "location_subtype":""
@@ -1002,7 +1002,7 @@
           "longitude":"-1.153971"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78216567,
        "location_subtype":""
@@ -1018,7 +1018,7 @@
           "longitude":"-1.114231"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213433,
        "location_subtype":""
@@ -1034,7 +1034,7 @@
           "longitude":"-1.132898"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78215460,
        "location_subtype":""
@@ -1050,7 +1050,7 @@
           "longitude":"-1.129330"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213411,
        "location_subtype":""
@@ -1066,7 +1066,7 @@
           "longitude":"-1.135171"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212911,
        "location_subtype":""
@@ -1082,7 +1082,7 @@
           "longitude":"-1.131127"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212915,
        "location_subtype":""
@@ -1098,7 +1098,7 @@
           "longitude":"-1.137683"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212917,
        "location_subtype":""
@@ -1114,7 +1114,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212918,
        "location_subtype":""
@@ -1130,7 +1130,7 @@
           "longitude":"-1.129040"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212937,
        "location_subtype":""
@@ -1146,7 +1146,7 @@
           "longitude":"-1.134261"
        },
        "context":"",
-       "price": 4775000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212368,
        "location_subtype":""
@@ -1162,7 +1162,7 @@
           "longitude":"-1.136001"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78209880,
        "location_subtype":""
@@ -1178,7 +1178,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78212369,
        "location_subtype":""
@@ -1194,7 +1194,7 @@
           "longitude":"-1.117842"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78217302,
        "location_subtype":""
@@ -1210,7 +1210,7 @@
           "longitude":"-1.128697"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78211813,
        "location_subtype":""
@@ -1226,7 +1226,7 @@
           "longitude":"-1.113600"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78217292,
        "location_subtype":""
@@ -1242,7 +1242,7 @@
           "longitude":"-1.134261"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78211822,
        "location_subtype":""
@@ -1258,7 +1258,7 @@
           "longitude":"-1.111560"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78217054,
        "location_subtype":""
@@ -1274,7 +1274,7 @@
           "longitude":"-1.119859"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78210426,
        "location_subtype":""
@@ -1290,7 +1290,7 @@
           "longitude":"-1.135034"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78210173,
        "location_subtype":""
@@ -1306,7 +1306,7 @@
           "longitude":"-1.133005"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213207,
        "location_subtype":""
@@ -1322,7 +1322,7 @@
           "longitude":"-1.129430"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213186,
        "location_subtype":""
@@ -1338,7 +1338,7 @@
           "longitude":"-1.152441"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213188,
        "location_subtype":""
@@ -1354,7 +1354,7 @@
           "longitude":"-1.132898"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213191,
        "location_subtype":""
@@ -1370,7 +1370,7 @@
           "longitude":"-1.133691"
        },
        "context":"",
-       "price": 2350000,
+       "price": 1280000,
        "property_type": "detached",
        "id":78213197,
        "location_subtype":""
