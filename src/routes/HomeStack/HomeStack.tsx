@@ -6,6 +6,7 @@ import { IStackScreen } from '~/@types/application/NavigationApplication.types'
 import HomeScreen from '~/screens/Home/HomeScreen'
 import HomeHeaderTitle from '~/components/HomeHeaderTitle/HomeHeaderTitle'
 import HomeHeaderFilter from '~/components/HomeHeaderFilter/HomeHeaderFilter'
+import FiltersScreen from '~/screens/Filters/FiltersScreen'
 
 const HOME_SCREENS: IStackScreen[] = [
   {
@@ -14,6 +15,14 @@ const HOME_SCREENS: IStackScreen[] = [
     screenOptions: {
       headerTitle: () => <HomeHeaderTitle />,
       headerRight: () => <HomeHeaderFilter />,
+    },
+  },
+  {
+    name: 'Filters',
+    component: FiltersScreen,
+    screenOptions: {
+      headerShown: false,
+      presentation: 'modal',
     },
   },
 ]
