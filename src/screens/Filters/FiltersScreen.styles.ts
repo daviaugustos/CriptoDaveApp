@@ -10,10 +10,12 @@ export const Container = styled(SafeAreaView)`
 export const FilterOptionsView = styled.View`
   flex: 1;
   flex-direction: row;
+  margin-bottom: 5px;
 `
 
 export const FilterInputsView = styled.View`
   flex: 10;
+  padding-vertical: 20px;
 `
 
 export const CancelView = styled.View`

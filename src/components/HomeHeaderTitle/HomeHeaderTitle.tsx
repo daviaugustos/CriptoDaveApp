@@ -3,7 +3,7 @@ import translate from '~/lib/i18n/i18n'
 import {
   TitleContainer,
   TitleText,
-} from '~/components/HomeHeaderTitle/HomeHeaderTitle.style'
+} from '~/components/HomeHeaderTitle/HomeHeaderTitle.styles'
 
 const HomeHeaderTitle = () => {
   return (

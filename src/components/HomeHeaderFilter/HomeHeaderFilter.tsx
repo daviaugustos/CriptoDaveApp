@@ -3,7 +3,7 @@ import { useNavigation } from '@react-navigation/native'
 import {
   TitleContainer,
   FilterIcon,
-} from '~/components/HomeHeaderFilter/HomeHeaderFilter.style'
+} from '~/components/HomeHeaderFilter/HomeHeaderFilter.styles'
 
 const HomeHeaderFilter = () => {
   const navigation = useNavigation()
