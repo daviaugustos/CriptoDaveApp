@@ -10,7 +10,10 @@ import {
   InputView,
 } from '~/components/FilterSection/FilterSection.styles'
 import { TApplicationState } from '~/store/StoreConfig'
-import { houseDeletePropertyType } from '~/store/House/HouseCreators'
+import {
+  houseDeletePropertyType,
+  houseSearchLocation,
+} from '~/store/House/HouseCreators'
 
 const FilterSection = () => {
   const propertyTypesSelected = useSelector((state: TApplicationState) =>
@@ -25,11 +28,18 @@ const FilterSection = () => {
     [dispatch],
   )
 
+  const onChangeTextValue = useCallback(
+    (searchedTerm: string) => {
+      dispatch(houseSearchLocation(searchedTerm))
+    },
+    [dispatch],
+  )
+
   return (
     <FilterSectionContainer>
       <SearchView>
         <InputView>
-          <InputField />
+          <InputField onChangeTextValue={text => onChangeTextValue(text)} />
         </InputView>
       </SearchView>
       <FilterBadgesView>

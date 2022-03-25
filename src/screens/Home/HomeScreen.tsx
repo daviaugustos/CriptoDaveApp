@@ -6,6 +6,7 @@ import {
   Container,
   MapContainer,
   FilterView,
+  MarkerView,
 } from '~/screens/Home/HomeScreen.styles'
 import FilterSection from '~/components/FilterSection/FilterSection'
 import { houseGetLocations } from '~/store/House/HouseCreators'
@@ -13,8 +14,10 @@ import { TApplicationState } from '~/store/StoreConfig'
 
 const HomeScreen = () => {
   const dispatch = useDispatch()
-  const houses = useSelector(
-    (state: TApplicationState) => state.house.housesData,
+  const houses = useSelector((state: TApplicationState) =>
+    state.house.filteredHouses.length
+      ? state.house.filteredHouses
+      : state.house.housesData,
   )
 
   useEffect(() => {
@@ -38,7 +41,9 @@ const HomeScreen = () => {
               latitude: houseItem.location.latitude,
               longitude: houseItem.location.longitude,
             }}
-          ></Marker>
+          >
+            <MarkerView />
+          </Marker>
         ))}
       </MapContainer>
       <FilterView>

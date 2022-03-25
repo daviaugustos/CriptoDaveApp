@@ -7,6 +7,7 @@ import { TApplicationState } from '~/store/StoreConfig'
 import {
   houseSetPropertyType,
   houseSetLocations,
+  houseFilterLocations,
 } from '~/store/House/HouseCreators'
 
 const HousesJson = require('~/store/House/house-data-stub.json')
@@ -49,10 +50,28 @@ export function* getLocationsSaga() {
   }
 }
 
+export function* searchLocationsSga(action) {
+  try {
+    const propertyTypeSelected: IHouseItem[] = yield select(
+      (state: TApplicationState) => state.house.housesData,
+    )
+    const termSearched = action.payload.toLowerCase()
+
+    const filteredHouses = propertyTypeSelected.filter(houseItem =>
+      houseItem.location.street.name.includes(termSearched),
+    )
+    console.log(filteredHouses)
+    yield put(houseFilterLocations(filteredHouses))
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export default function* () {
   yield takeLatest(
     EHouseTypes.HOUSE_DELETE_PROPERTY_TYPE,
     deletePropertyTypeSaga,
   )
   yield takeLatest(EHouseTypes.HOUSE_GET_LOCATIONS, getLocationsSaga)
+  yield takeLatest(EHouseTypes.HOUSE_SEARCH_LOCATIONS, searchLocationsSga)
 }

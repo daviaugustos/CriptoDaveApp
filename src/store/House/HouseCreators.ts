@@ -78,4 +78,10 @@ export const houseFilterLocations = (filteredHouses: IHouseItem[]) => ({
   type: EHouseTypes.HOUSE_FILTER_LOCATIONS,
   payload: filteredHouses,
 })
+
+export const houseSearchLocation = (searchTerm: string) => ({
+  type: EHouseTypes.HOUSE_SEARCH_LOCATIONS,
+  payload: searchTerm,
+})
+
 export default HouseReducer
