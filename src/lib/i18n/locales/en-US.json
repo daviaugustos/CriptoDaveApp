@@ -13,5 +13,10 @@
     "property_type_title": "Property Type",
     "cancel": "Cancel",
     "confirm": "View %{houseNumber} home for sales"
+  },
+  "home": {
+    "filter_section": {
+      "input_placeholder": "Any area or listing"
+    }
   }
 }

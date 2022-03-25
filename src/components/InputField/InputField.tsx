@@ -1,14 +1,19 @@
 import React from 'react'
-import Icon from 'react-native-vector-icons/FontAwesome'
-import { Container, Input, InputIconView } from './InputField.styles'
+import {
+  Container,
+  Input,
+  InputIconView,
+  SearchIcon,
+} from './InputField.styles'
+import translate from '~/lib/i18n/i18n'
 
 const InputField = () => {
   return (
     <Container>
       <InputIconView>
-        <Icon name="rocket" size={30} color="#900" />
+        <SearchIcon name="search" size={20} />
       </InputIconView>
-      <Input />
+      <Input placeholder={translate('home.filter_section.input_placeholder')} />
     </Container>
   )
 }
