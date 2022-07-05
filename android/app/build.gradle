@@ -160,16 +160,16 @@ android {
             keyPassword 'android'
         }
         development {
-            storeFile = file('key.jks')
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storePassword keystoreProperties['storePassword']
+            storeFile file('my-upload-key.keystore')
+            storePassword '123Appcenter'
+            keyAlias 'my-key-alias'
+            keyPassword '123Appcenter'
         }
         release {
-            storeFile = file('key.jks')
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storePassword keystoreProperties['storePassword']
+            storeFile file('my-upload-key.keystore')
+            storePassword '123Appcenter'
+            keyAlias 'my-key-alias'
+            keyPassword '123Appcenter'
         }
     }
     buildTypes {
